@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DeliciousEats - Premium Food Delivery</title>
+    <meta name="description" content="Experience premium food delivery with DeliciousEats. Fresh ingredients, gourmet meals, and exceptional service delivered to your door.">
+    <link rel="stylesheet" href="food.css" />
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="phone.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav id="nav">
+      <div id="logo">
+        <img src="img/logo-removebg-preview.png" alt="DeliciousEats Logo" />
+        <span class="logo-text">DeliciousEats</span>
+      </div>
+      <ul>
+        <li class="item"><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+        <li class="item"><a href="#service-container"><i class="fas fa-utensils"></i> Services</a></li>
+        <li class="item"><a href="#clients-container"><i class="fas fa-users"></i> About</a></li>
+        <li class="item"><a href="#contact-container"><i class="fas fa-envelope"></i> Contact</a></li>
+      </ul>
+      <div class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home">
+      <div class="hero-content">
+        <h1 class="hero-title">Gourmet Meals Delivered to Your Door</h1>
+        <p class="hero-subtitle">
+          Experience culinary excellence with our premium food delivery service. 
+          Fresh ingredients, expert chefs, and exceptional flavors in every bite.
+        </p>
+        <div class="hero-features">
+          <div class="feature">
+            <i class="fas fa-clock"></i>
+            <span>30-min delivery</span>
+          </div>
+          <div class="feature">
+            <i class="fas fa-leaf"></i>
+            <span>Fresh ingredients</span>
+          </div>
+          <div class="feature">
+            <i class="fas fa-award"></i>
+            <span>Gourmet quality</span>
+          </div>
+        </div>
+        <div class="hero-buttons">
+          <button class="btn btn-primary">
+            <i class="fas fa-shopping-cart"></i>
+            Order Now
+          </button>
+          <button class="btn btn-secondary">
+            <i class="fas fa-play"></i>
+            Watch Video
+          </button>
+        </div>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <h3>50K+</h3>
+          <p>Happy Customers</p>
+        </div>
+        <div class="stat">
+          <h3>500+</h3>
+          <p>Gourmet Dishes</p>
+        </div>
+        <div class="stat">
+          <h3>24/7</h3>
+          <p>Service Available</p>
+        </div>
+      </div>
+    </section>    <!-- Services Section -->
+    <section id="service-container">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Our Premium Services</h2>
+          <p class="section-subtitle">Exceptional culinary experiences tailored to your needs</p>
+        </div>
+        <div id="services">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-concierge-bell"></i>
+            </div>
+            <img src="img/food catering.jpg" alt="Premium Catering Service" />
+            <div class="service-content">
+              <h3>Premium Catering</h3>
+              <p>
+                Elevate your events with our exquisite catering services. From intimate gatherings 
+                to grand celebrations, our culinary artists create memorable dining experiences 
+                with fresh, locally-sourced ingredients and innovative presentations.
+              </p>
+              <ul class="service-features">
+                <li><i class="fas fa-check"></i> Custom menu design</li>
+                <li><i class="fas fa-check"></i> Professional service staff</li>
+                <li><i class="fas fa-check"></i> Event coordination</li>
+              </ul>
+              <button class="service-btn">Learn More</button>
+            </div>
+          </div>
+          
+          <div class="service-card featured">
+            <div class="featured-badge">Most Popular</div>
+            <div class="service-icon">
+              <i class="fas fa-boxes"></i>
+            </div>
+            <img src="img/bulk order.jpg" alt="Corporate Bulk Orders" />
+            <div class="service-content">
+              <h3>Corporate Bulk Orders</h3>
+              <p>
+                Perfect for office meetings, corporate events, and team lunches. Our bulk ordering 
+                service ensures consistent quality and timely delivery for groups of any size, 
+                with special corporate pricing and dedicated account management.
+              </p>
+              <ul class="service-features">
+                <li><i class="fas fa-check"></i> Volume discounts</li>
+                <li><i class="fas fa-check"></i> Scheduled deliveries</li>
+                <li><i class="fas fa-check"></i> Account management</li>
+              </ul>
+              <button class="service-btn">Get Quote</button>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-motorcycle"></i>
+            </div>
+            <img src="img/food order.jpg" alt="Express Food Delivery" />
+            <div class="service-content">
+              <h3>Express Delivery</h3>
+              <p>
+                Craving something delicious? Our express delivery service brings restaurant-quality 
+                meals to your doorstep in 30 minutes or less. Track your order in real-time and 
+                enjoy hot, fresh food exactly when you want it.
+              </p>
+              <ul class="service-features">
+                <li><i class="fas fa-check"></i> 30-minute guarantee</li>
+                <li><i class="fas fa-check"></i> Real-time tracking</li>
+                <li><i class="fas fa-check"></i> Temperature controlled</li>
+              </ul>
+              <button class="service-btn">Order Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>    <!-- Trusted Partners Section -->
+    <section id="clients-container">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Trusted by Industry Leaders</h2>
+          <p class="section-subtitle">Partnering with the world's most innovative companies</p>
+        </div>
+        <div id="clients">
+          <div class="client-card">
+            <img src="img/google-removebg-preview.png" alt="Google Partnership" />
+            <div class="client-info">
+              <h4>Google</h4>
+              <p>Corporate catering partner</p>
+            </div>
+          </div>
+          <div class="client-card">
+            <img src="img/apple-removebg-preview.png" alt="Apple Partnership" />
+            <div class="client-info">
+              <h4>Apple</h4>
+              <p>Event catering services</p>
+            </div>
+          </div>
+          <div class="client-card">
+            <img src="img/skype-removebg-preview.png" alt="Skype Partnership" />
+            <div class="client-info">
+              <h4>Microsoft</h4>
+              <p>Daily meal programs</p>
+            </div>
+          </div>
+          <div class="client-card">
+            <img src="img/hp-removebg-preview.png" alt="HP Partnership" />
+            <div class="client-info">
+              <h4>HP Inc.</h4>
+              <p>Executive dining services</p>
+            </div>
+          </div>
+          <div class="client-card">
+            <img src="img/microsoft-removebg-preview.png" alt="Microsoft Partnership" />
+            <div class="client-info">
+              <h4>Microsoft</h4>
+              <p>Campus food solutions</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Testimonials -->
+        <div class="testimonials">
+          <div class="testimonial">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>"DeliciousEats has transformed our corporate dining experience. The quality and service are exceptional."</p>
+            <div class="testimonial-author">
+              <strong>Sarah Johnson</strong> - Head of Operations, TechCorp
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>    <!-- Contact Section -->
+    <section id="contact-container">
+      <div class="container">
+        <div class="contact-content">
+          <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <p class="contact-subtitle">Ready to elevate your dining experience? Let's create something extraordinary together.</p>
+            
+            <div class="contact-methods">
+              <div class="contact-method">
+                <div class="method-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="method-info">
+                  <h4>Phone</h4>
+                  <p>+1 (555) 123-4567</p>
+                  <small>Mon-Sun 7AM-11PM</small>
+                </div>
+              </div>
+              
+              <div class="contact-method">
+                <div class="method-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="method-info">
+                  <h4>Email</h4>
+                  <p>hello@deliciouseats.com</p>
+                  <small>Response within 2 hours</small>
+                </div>
+              </div>
+              
+              <div class="contact-method">
+                <div class="method-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="method-info">
+                  <h4>Location</h4>
+                  <p>123 Culinary Street</p>
+                  <small>Downtown Food District</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contact-form-container">
+            <form class="contact-form" action="#" method="POST">
+              <div class="form-header">
+                <h3>Send us a message</h3>
+                <p>We'd love to hear from you</p>
+              </div>
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="firstName">First Name</label>
+                  <input type="text" id="firstName" name="firstName" placeholder="John" required />
+                </div>
+                <div class="form-group">
+                  <label for="lastName">Last Name</label>
+                  <input type="text" id="lastName" name="lastName" placeholder="Doe" required />
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="john.doe@example.com" required />
+              </div>
+              
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567" />
+              </div>
+              
+              <div class="form-group">
+                <label for="service">Service Interest</label>
+                <select id="service" name="service">
+                  <option value="">Select a service</option>
+                  <option value="delivery">Express Delivery</option>
+                  <option value="catering">Premium Catering</option>
+                  <option value="bulk">Corporate Bulk Orders</option>
+                  <option value="custom">Custom Solutions</option>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Tell us about your requirements or ask any questions..." required></textarea>
+              </div>
+              
+              <button type="submit" class="submit-btn">
+                <i class="fas fa-paper-plane"></i>
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="footer-logo">
+            <img src="img/logo-removebg-preview.png" alt="DeliciousEats Logo" />
+            <span>DeliciousEats</span>
+          </div>
+          <p>Delivering exceptional culinary experiences with passion, quality, and innovation since 2020.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#">Express Delivery</a></li>
+            <li><a href="#">Premium Catering</a></li>
+            <li><a href="#">Corporate Solutions</a></li>
+            <li><a href="#">Event Planning</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 DeliciousEats. All rights reserved. | Crafted with ❤️ for food lovers</p>
+      </div>
+    </footer>
+
+    <script>
+      // Smooth scrolling for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute('href'));
+          if (target) {
+            target.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start'
+            });
+          }
+        });
+      });
+
+      // Mobile navigation toggle
+      const navToggle = document.querySelector('.nav-toggle');
+      const navMenu = document.querySelector('#nav ul');
+      
+      navToggle.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+        navToggle.classList.toggle('active');
+      });
+
+      // Form submission
+      document.querySelector('.contact-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        alert('Thank you for your message! We\'ll get back to you soon.');
+      });      // Parallax effect on scroll
+      window.addEventListener('scroll', function() {
+        const scrollPosition = window.pageYOffset;
+        
+        // Apply parallax to hero section
+        const heroSection = document.querySelector('#home::before');
+        if (heroSection) {
+          heroSection.style.transform = `translateY(${scrollPosition * 0.4}px)`;
+        }
+        
+        // Apply subtle animations to sections on scroll
+        const sections = document.querySelectorAll('section');
+        sections.forEach(section => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.offsetHeight;
+          const sectionMiddle = sectionTop + sectionHeight/2;
+          const distanceFromMiddle = Math.abs(scrollPosition + window.innerHeight/2 - sectionMiddle);
+          const maxDistance = window.innerHeight + sectionHeight/2;
+          
+          // Calculate parallax intensity based on distance from middle
+          if (distanceFromMiddle < maxDistance) {
+            const parallaxIntensity = 1 - distanceFromMiddle/maxDistance;
+            section.style.opacity = 0.7 + parallaxIntensity * 0.3;
+          }
+        });
+      });
+
+      // Intersection Observer for animations
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -100px 0px'
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('animate-in');
+          }
+        });
+      }, observerOptions);
+
+      // Observe elements for animation
+      document.querySelectorAll('.service-card, .client-card, .contact-method, .section-header').forEach(el => {
+        observer.observe(el);
+      });
+    </script>
+  </body>
+</html>
