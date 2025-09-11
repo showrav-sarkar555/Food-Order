@@ -2,6 +2,9 @@
 
 A simple web project for practicing food ordering UI and logic using HTML, CSS, and JavaScript.
 
+## Live Demo
+[GitHub Pages Demo](https://showrav-sarkar555.github.io/Food-Order/)
+
 ## Technologies Used
 - HTML5
 - CSS3
@@ -15,9 +18,9 @@ A simple web project for practicing food ordering UI and logic using HTML, CSS, 
 ## How to Run Locally
 1. Clone the repository:
    ```sh
-   git clone https://github.com/showrav-sarkar555/website.git
+   git clone https://github.com/showrav-sarkar555/Food-Order.git
    ```
-2. Open `food order/index.html` in your browser.
+2. Open `index.html` in your browser.
 
 ## Folder Structure
 - `food.css` - Stylesheet for food order UI
